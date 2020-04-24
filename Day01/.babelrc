@@ -1,0 +1,5 @@
+{  // 调用babel时的预设配置
+  "presets": [
+      "@babel/preset-env"
+  ]
+}
