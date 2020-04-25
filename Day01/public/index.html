@@ -12,10 +12,17 @@
   <script>
     let vm = new Vue({
       el:'#app',
-      data(){},
+      data(){
+        return {name: 'zf',age: 11}
+
+      },
       computed(){},
       watch(){}
     })
+    console.log(vm._data)
+
+
+    
   </script>
 </body>
 </html>
