@@ -22,7 +22,6 @@ export function initState( vm ){
     function initProps(){}
     function initMethod(){}
     function initData(vm){
-        console.log(vm.$options.data)
         let data = vm.$options.data; // 用户传递的data
         data = vm._data = typeof data === 'function' ? data.call(vm) : data
         // 接下来要进行对象劫持， 原因是用户改变了数据，我希望能得到通知 =》 刷新页面
